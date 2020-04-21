@@ -6,3 +6,36 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.parentDiv{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card{
+  border: black 3px solid;
+  max-width: 150px;
+  max-height: 250px;
+  margin:10px;
+  background-color: cadetblue;
+  box-shadow: darkblue 5px 5px;
+}
+
+.card .cardImg{
+  height: 50%;
+  width:50%;
+  border:3px black solid;
+  margin-top: 10px;
+}
+
+.nameNStatus{
+  border: black 1px solid;
+  margin: 5px;
+  background-color: aliceblue;
+}
+
+.cardText{
+  border: black 1px solid;
+  margin: 5px;
+  background-color: aliceblue;
+}
