@@ -6,3 +6,65 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.cardDiv div {
+  border: solid black 2px;
+  height: 250px;
+  width: 250px;
+  margin: 10px;
+  background-color: brown;
+  border-radius: 50px;
+  box-shadow: chocolate 10px 10px;
+}
+
+.cardDiv div h2 {
+  margin-top: 5px;
+}
+.cardDiv div img {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 30px 30px;
+}
+
+.jumbo {
+  border: solid black 3px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+  background-color: cornflowerblue;
+}
+
+.jumbo h1 {
+  text-align: left;
+  margin-left: 20px;
+  font-family: Georgia !important;
+  border-bottom: solid black 2px;
+  width: 30%;
+}
+
+.jumbo p {
+  text-align: left;
+  margin-left: 20px;
+  font-family: "Lucida Sans";
+}
+
+.imgHolder {
+  height: 100px;
+  width: 100px;
+  border-radius: 180px;
+  position: absolute;
+  top: 5%;
+  left: 88%;
+  background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6220/6220794_so.jpg");
+  background-size: 100px 100px;
+}
+.imgHolder:hover {
+  filter: contrast(5);
+}
